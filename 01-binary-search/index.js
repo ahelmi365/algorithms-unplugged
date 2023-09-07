@@ -17,7 +17,10 @@ const binarySearch = (arr, key) => {
   return undefined;
 };
 
-const arr = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200];
+const arr = [
+  100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400,
+  1500,
+];
 
-const result = binarySearch(arr, 800);
+const result = binarySearch(arr, 1000);
 console.log({ result });
