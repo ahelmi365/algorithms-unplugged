@@ -24,3 +24,6 @@ const arr = [
 
 const result = binarySearch(arr, 1000);
 console.log({ result });
+
+const testUndf = binarySearch(arr, 10);
+console.log({ testUndf });
